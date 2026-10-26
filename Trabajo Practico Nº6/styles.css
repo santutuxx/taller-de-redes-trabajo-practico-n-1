@@ -1,0 +1,45 @@
+a{
+    color: black;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: black;
+    background-color:cornflowerblue;
+    border-radius: 6px;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+main{
+    background-color: yellow;
+}
+footer{
+    background-color: blue;
+    display: flex;
+}
+section{
+    display: flex;
+    background-color: blue;
+    transform: scale(0.8);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+section:hover{
+    transform: scale(0.9);
+    transition: 150ms;
+    background-color: white;
+    border-color: blue;
+    border
+}
